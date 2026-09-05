@@ -16,19 +16,19 @@ The purpose of this repository is to provide a substantially reduced version of 
 
 Packages and classes unrelated to this purpose were removed, and the remaining code was organized as a small calculation engine intended primarily for in-memory use from Python through JPype.
 
-Consequently, this repository should be regarded as a minimal derivative/adaptation of the relevant portions of jBPT rather than as an independent implementation of the RPST algorithms.
+Consequently, this repository should be regarded as a minimal adaptation of the relevant portions of jBPT rather than as an independent implementation of the RPST algorithms.
 
 ## License
 
 The original jBPT codebase is distributed under the GNU Lesser General Public License version 3 (LGPL-3.0).
 
-The portions of jBPT distributed and modified in this repository remain subject to the terms of the GNU LGPL v3. See the LICENSE file included with this repository for the complete license text.
+The portions of jBPT redistributed and modified in this repository remain subject to the terms of the GNU LGPL v3. See the LICENSE file included with this repository for the complete license text.
 
 Copyright and attribution notices originating from jBPT remain applicable to the corresponding derived source code.
 
 
 ## Notice
 
-This repository is **NOT** affiliated with, endorsed by, or maintained by the original jBPT project.
+This repository is not affiliated with, endorsed by, or maintained by the original jBPT project.
 
 For detailed information about the origin of the source code, retained components, authorship, and modifications made in this repository, see [NOTICE.md](NOTICE.md).
