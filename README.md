@@ -25,3 +25,5 @@ The original jBPT codebase is distributed under the GNU Lesser General Public Li
 The portions of jBPT distributed and modified in this repository remain subject to the terms of the GNU LGPL v3. See the LICENSE file included with this repository for the complete license text.
 
 Copyright and attribution notices originating from jBPT remain applicable to the corresponding derived source code.
+
+For detailed information about the origin of the source code, retained components, authorship, and modifications made in this repository, see NOTICE.md.
