@@ -15,13 +15,14 @@
     </properties>
 
     <build>
+        <finalName>rpst</finalName>
         <plugins>
-            <!-- Plugin para gerar o manifesto e o pacote fat-jar (com dependências) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.6.0</version>
                 <configuration>
+                    <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
                             <mainClass>Main</mainClass>
