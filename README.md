@@ -1,9 +1,27 @@
 # RPST (Refined Process Structure Tree)
+This repository provides a standalone, lightweight extraction and adaptation of the Refined Process Structure Tree (RPST) implementation from the [jBPT (Java Business Process Technologies) library](https://github.com/jbpt/codebase).
 
-This repository contains a standalone, lightweight implementation of the Refined Process Structure Tree (RPST).
+## Origin and Attribution
+The RPST algorithms and supporting graph data structures contained in this repository originate from the jBPT project. In particular, the core algorithms required for RPST computation, including triconnected component decomposition and Single-Entry, Single-Exit (SESE) region detection, as well as the supporting graph and hypergraph structures, were extracted and adapted from the original jBPT codebase.
 
-**Core Origins**
-All core mathematical algorithms, graph structures, and specific dependencies required for the RPST computation, including triconnected component decomposition and Single-Entry, Single-Exit (SESE) region detection, were directly extracted from the [jBPT (Java Business Process Technologies) library](https://github.com/jbpt/codebase).
+This project does not claim authorship of the original jBPT algorithms or their implementations. Credit for the original implementation belongs to the jBPT project and its respective authors and contributors.
 
-**Motivation**
-This minimal extraction isolates the RPST core from heavy, unnecessary external frameworks (such as ProM visual parsers). By preserving only the essential native Java packages (`org.jbpt.graph`, `org.jbpt.hypergraph`, and `org.jbpt.algo.tree`), this project operates as a fast, dependency-free calculation engine. It is specifically optimized for execution in memory via JPype within Python environments.
+Original project:
+- jBPT — Java Business Process Technologies
+- https://github.com/jbpt/codebase
+
+## Motivation and Modifications
+
+The purpose of this repository is to provide a substantially reduced version of the jBPT codebase containing only the components required for RPST computation.
+
+Packages and classes unrelated to this purpose were removed, and the remaining code was organized as a small calculation engine intended primarily for in-memory use from Python through JPype.
+
+Consequently, this repository should be regarded as a minimal derivative/adaptation of the relevant portions of jBPT rather than as an independent implementation of the RPST algorithms.
+
+## License
+
+The original jBPT codebase is distributed under the GNU Lesser General Public License version 3 (LGPL-3.0).
+
+The portions of jBPT distributed and modified in this repository remain subject to the terms of the GNU LGPL v3. See the LICENSE file included with this repository for the complete license text.
+
+Copyright and attribution notices originating from jBPT remain applicable to the corresponding derived source code.
