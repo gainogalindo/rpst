@@ -26,4 +26,4 @@ The portions of jBPT distributed and modified in this repository remain subject 
 
 Copyright and attribution notices originating from jBPT remain applicable to the corresponding derived source code.
 
-For detailed information about the origin of the source code, retained components, authorship, and modifications made in this repository, see NOTICE.md.
+For detailed information about the origin of the source code, retained components, authorship, and modifications made in this repository, see [NOTICE.md](NOTICE.md).
